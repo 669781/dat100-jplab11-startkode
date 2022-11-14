@@ -7,15 +7,25 @@ public class Blogg {
 
 	// TODO: objektvariable 
 
+	private Innlegg[] innleggtabell;
+	private int nesteledige = 0;
+	
 	public Blogg() {
-		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
+		
+		this.innleggtabell = new Innlegg[20];
+		// throw new UnsupportedOperationException(TODO.constructor("Blogg"));
 	}
 
 	public Blogg(int lengde) {
+		
+		this.innleggtabell = new Innlegg[lengde];
+		
 		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
 	}
 
 	public int getAntall() {
+		
+		return antall;
 		throw new UnsupportedOperationException(TODO.method());
 	}
 	
